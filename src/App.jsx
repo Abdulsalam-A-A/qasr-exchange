@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
 const SUPABASE_URL = "https://xermlxydjmvpmgprifce.supabase.co";
-const SUPABASE_KEY = "sb_publishable_wIVwmkwQMxeUAOwZ6AUhyg_NlhDwo-G";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inhlcm1seHlkam12cG1ncHJpZmNlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyNTcyNTMsImV4cCI6MjA5NDgzMzI1M30.QRwb2WdA7r8GnNSX7YZk7DtIieULHk60pRONHlyYk3g";
 
 const API = `${SUPABASE_URL}/rest/v1/currencies`;
 const HEADERS = {
