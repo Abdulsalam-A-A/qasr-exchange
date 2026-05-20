@@ -99,7 +99,7 @@ function LoginPage({ onSuccess, onBack }) {
           <Logo size={60}/>
           <h2 style={{ color:"#f0c040", fontFamily:"Georgia,serif", margin:"12px 0 4px", fontSize:20 }}>دخول الإدارة</h2>
           <p style={{ color:"#64748b", fontSize:13, marginBottom:24 }}>شركة القصر للصرافة</p>
-          <input ref={inputRef} type="text" placeholder="admin123" value={val}
+          <input ref={inputRef} type="text" placeholder="" value={val}
             onChange={e => { setVal(e.target.value); setErr(""); }}
             onKeyDown={e => e.key === "Enter" && attempt()} style={S.loginInput}/>
           {err && <p style={{ color:"#f87171", fontSize:13, margin:"6px 0 0", textAlign:"center" }}>{err}</p>}
