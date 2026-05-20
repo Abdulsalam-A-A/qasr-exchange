@@ -105,7 +105,8 @@ function LoginPage({ onSuccess, onBack }) {
           {err && <p style={{ color:"#f87171", fontSize:13, margin:"6px 0 0", textAlign:"center" }}>{err}</p>}
           <button onClick={attempt} style={{ ...S.loginBtn, marginTop:12 }}>دخول</button>
           <button onClick={onBack} style={{ ...S.backBtn, marginTop:8 }}>← العودة للأسعار</button>
-          <p style={{ color:"#334155", fontSize:11, marginTop:14 }}>الباسوورد: admin123</p>
+         {/* <p style={{ color:"#334155", fontSize:11, marginTop:14 }}>الباسوورد: admin123</p> */}
+          
         </div>
       </div>
     </div>
